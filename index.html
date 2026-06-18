@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head></head>
+
+	<body class="typed centered" style="background-image:url(ivory-off-white-paper-texture.jpg);">
+        <h1 class="centered">Welcome to my vacation blog website!!</h1><small id="cooltext" class="bigout" style="display:inline-block"></small>
+    <h4><a href="gulp.html">go to my blog entrys!</a></h4>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+	<script>
+		let copytext = ["while pretending to be marie curie", "while copying marie curie", "roleplaying as marie curie", "as marie curie"];
+		let randomone = copytext[Math.floor(Math.random() * copytext.length)];
+		document.getElementById("cooltext").textContent = randomone;
+
+	</script>
+	<style>
+		@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+		.typed {
+			font-family: Special Elite, system-ui
+		}
+
+		.centered {
+			text-align: center;
+			Justify-content: center
+		}
+
+		@keyframes movepls {
+			0% {
+				transform: rotate(-5deg) scale(1.1)
+			}
+
+			to {
+				transform: rotate(5deg) scale(1.2)
+			}
+		}
+
+		.bigout {
+			animation: movepls .5s linear infinite alternate;
+			transition: transform .1s ease-in-out
+		}
+
+	</style>
+
+</html>
