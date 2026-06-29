@@ -1,0 +1,1 @@
+hey! this is a pretty simple website i made for my english project i had to do about marie curie! the mechanics are pretty simple, i used buttons to make you go to the next page and back a page if you want, and for the homescreen i used css animation to make the text rotate, and i got a font from google fonts!!
